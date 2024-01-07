@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_jual" msdata:CaseSensitive="True" msprop:Generator_TableClassName="tbl_jualDataTable" msprop:Generator_TableVarName="tabletbl_jual" msprop:Generator_TablePropName="tbl_jual" msprop:Generator_RowDeletingName="tbl_jualRowDeleting" msprop:Generator_RowChangingName="tbl_jualRowChanging" msprop:Generator_RowEvHandlerName="tbl_jualRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_jualRowDeleted" msprop:Generator_UserTableName="tbl_jual" msprop:Generator_RowChangedName="tbl_jualRowChanged" msprop:Generator_RowEvArgName="tbl_jualRowChangeEvent" msprop:Generator_RowClassName="tbl_jualRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nojual" msprop:Generator_ColumnVarNameInTable="columnnojual" msprop:Generator_ColumnPropNameInRow="nojual" msprop:Generator_ColumnPropNameInTable="nojualColumn" msprop:Generator_UserColumnName="nojual">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgljual" msprop:Generator_ColumnVarNameInTable="columntgljual" msprop:Generator_ColumnPropNameInRow="tgljual" msprop:Generator_ColumnPropNameInTable="tgljualColumn" msprop:Generator_UserColumnName="tgljual" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="jamjual" msprop:Generator_ColumnVarNameInTable="columnjamjual" msprop:Generator_ColumnPropNameInRow="jamjual" msprop:Generator_ColumnPropNameInTable="jamjualColumn" msprop:Generator_UserColumnName="jamjual" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="totaljual" msprop:Generator_ColumnVarNameInTable="columntotaljual" msprop:Generator_ColumnPropNameInRow="totaljual" msprop:Generator_ColumnPropNameInTable="totaljualColumn" msprop:Generator_UserColumnName="totaljual" type="xs:long" minOccurs="0" />
+              <xs:element name="dibayar" msprop:Generator_ColumnVarNameInTable="columndibayar" msprop:Generator_ColumnPropNameInRow="dibayar" msprop:Generator_ColumnPropNameInTable="dibayarColumn" msprop:Generator_UserColumnName="dibayar" type="xs:long" minOccurs="0" />
+              <xs:element name="kembali" msprop:Generator_ColumnVarNameInTable="columnkembali" msprop:Generator_ColumnPropNameInRow="kembali" msprop:Generator_ColumnPropNameInTable="kembaliColumn" msprop:Generator_UserColumnName="kembali" type="xs:long" minOccurs="0" />
+              <xs:element name="kodepelanggan" msprop:Generator_ColumnVarNameInTable="columnkodepelanggan" msprop:Generator_ColumnPropNameInRow="kodepelanggan" msprop:Generator_ColumnPropNameInTable="kodepelangganColumn" msprop:Generator_UserColumnName="kodepelanggan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kodeadmin" msprop:Generator_ColumnVarNameInTable="columnkodeadmin" msprop:Generator_ColumnPropNameInRow="kodeadmin" msprop:Generator_ColumnPropNameInTable="kodeadminColumn" msprop:Generator_UserColumnName="kodeadmin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tbl_jual" />
+      <xs:field xpath="mstns:nojual" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
