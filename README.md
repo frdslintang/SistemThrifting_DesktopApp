@@ -4,7 +4,6 @@ Aplikasi berbasis desktop mengenai Sistem Informasi penjualan thrifting mengguna
 
 ## Overview Desktop App
 
-![Gambar 1](https://ibb.co/8M2JPRB)
-![Gambar 2](https://ibb.co/v1h5rGx)
-![Gambar 3](https://ibb.co/bWqHP3t)
-![Gambar 4](https://ibb.co/D10NJs8)
+![Gambar 1](https://i.ibb.co/hsHk2nM/t4.jpg)
+![Gambar 2](https://i.ibb.co/fM9RK5Y/t3.jpg)
+![Gambar 3](https://i.ibb.co/X2Nyb4H/t2.jpg)
